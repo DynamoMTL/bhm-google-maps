@@ -12,7 +12,7 @@ module BHM
           p[:sensor]  = false
           p[:size]    = "#{@width}x#{@height}"
           p[:maptype] = options.fetch(:type, "roadmap")
-          p[:zoom]    = options.fetch(:zoom, 15)
+          p[:zoom]    = options.fetch(:zoom, 300)
         end
       end
 
